@@ -6,6 +6,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 body {
@@ -45,3 +46,31 @@ body {
     margin: 0;
 }
 
+.barre-laterale {
+    position:fixed;
+    background-color: #bf0010;
+    margin-top: 71.2px;
+    height: 100vh;
+    width: 71.2px;
+    flex-direction: column;
+}
+
+.bloc-barre-laterale {
+    flex-direction: column;
+    border-top: solid 2px #bf0010;
+    background-color: #e60012;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.texte-blanc-barre-laterale {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.icon-barre-laterale-taille {
+    width: 32px;
+    height: 32px;
+}
