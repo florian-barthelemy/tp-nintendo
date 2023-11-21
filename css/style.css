@@ -1,23 +1,37 @@
-header{
+header {
     background-color: #e60012;
     width:100%;
     height: 71.2px;
     margin: 0;
 }
 
-body{
+body {
     margin: 0;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.droite{
+.droite {
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 
-.blanc{
-    fill: #ffffff;
+.blanc {
+    filter: brightness(0) invert(1);
+}
+
+.logo-nintendo {
+    width: 96px;
+    height: 24px;
+}
+
+.icon-texte {
+    flex-direction: column;
+}
+
+.icon-taille {
+    width: 24px;
+    height: 24px;
 }
