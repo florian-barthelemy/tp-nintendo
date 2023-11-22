@@ -51,7 +51,7 @@ body {
     background-color: #bf0010;
     margin-top: 71.2px;
     height: 92.5vh;
-    width: 71.2px;
+    width: 6vw;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -72,12 +72,13 @@ body {
 }
 
 .icon-barre-laterale-taille {
+    margin: 5px;
     width: 32px;
     height: 32px;
 }
 
 .btn-remonter {
-width: 3.2vh;
+width: 1.75vw; 
 height: 4.5vh;
 color: #e60012;
 background-color: white;
